@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serenity | Atmospheric Parallax Experience</title>
+  <meta name="description" content="An immersive multi-layered 3D parallax web experience with atmospheric depth and modern aesthetic UI.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-icon"><i class="fa-solid fa-torii-gate"></i></span>
+        <span class="logo-text">SERENITY</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#discover" class="nav-link">Discover</a></li>
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#discover" class="nav-btn">Explore Now</a>
+    </div>
+  </nav>
+
+  <section class="hero-section" id="hero">
+    <div class="parallax-layer layer-bg" id="layerBg">
+      <img src="assets/background.png" alt="Background Scene" id="img-bg">
+    </div>
+    <div class="parallax-layer layer-text" id="layerText">
+      <div class="hero-content">
+        <span class="hero-badge"><i class="fa-solid fa-sparkles"></i> Atmospheric Motion</span>
+        <h1 class="hero-title">SACRED BRIDGE</h1>
+        <p class="hero-subtitle">Move your mouse and scroll down to feel deep 3D perspective</p>
+        <div class="hero-actions">
+          <a href="#discover" class="btn btn-primary">Begin Journey</a>
+          <a href="#features" class="btn btn-secondary"><i class="fa-solid fa-play"></i> Features</a>
+        </div>
+      </div>
+    </div>
+    <div class="parallax-layer layer-bridge" id="layerBridge">
+      <img src="assets/bridge.png" alt="Sacred Bridge" id="img-bridge">
+    </div>
+    <div class="parallax-layer layer-tree-tl" id="layerTreeTl">
+      <img src="assets/top left tree.png" alt="Top Left Foliage" id="img-tree-tl">
+    </div>
+    <div class="parallax-layer layer-tree-br" id="layerTreeBr">
+      <img src="assets/buttom right tree.png" alt="Bottom Right Foliage" id="img-tree-br">
+    </div>
+    <div class="parallax-layer layer-petals" id="layerPetals">
+      <img src="assets/pertals.svg" alt="Floating Petals" id="img-petals">
+    </div>
+    <div class="hero-blend-overlay"></div>
+  </section>
+
+  <section class="black-section" id="discover">
+    <div class="black-section-bg">
+      <div class="ambient-glow glow-1"></div>
+      <div class="ambient-glow glow-2"></div>
+      <div class="grid-pattern"></div>
+    </div>
+    <div class="content-container">
+      <div class="section-header reveal-item">
+        <span class="section-badge">IMMERSIVE EXPLORATION</span>
+        <h2 class="section-title">Harmonious Depth &amp; Motion</h2>
+        <p class="section-description">
+          Experience natural depth scrolling with pixel-precise multi-layer parallax technology. Designed to captivate, perform seamlessly, and inspire.
+        </p>
+      </div>
+    </div>
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <span class="logo-icon"><i class="fa-solid fa-torii-gate"></i></span>
+          <span>SERENITY PARALLAX</span>
+        </div>
+        <p class="footer-copy">&copy; 2026 Serenity Experience. Built with pure HTML, CSS &amp; JavaScript.</p>
+        <div class="footer-links">
+          <a href="#hero"><i class="fa-solid fa-circle-chevron-up"></i> Top</a>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
