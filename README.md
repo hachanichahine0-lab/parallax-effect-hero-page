@@ -1,6 +1,20 @@
 # Parallax Effect Hero Page
 
-A multi-layer parallax hero page built with pure HTML, CSS & JavaScript — no frameworks, no build tools.
+🌸 A multi-layer parallax hero page built with pure HTML, CSS & JavaScript — featuring scroll-driven depth animation.
+
+
+<img width="1376" height="515" alt="image" src="https://github.com/user-attachments/assets/939957eb-45de-40f7-8808-2df807d1fa17" />
+
+
+https://github.com/user-attachments/assets/03300578-b2b9-459e-91bb-86cfcf2465e6
+
+
+
+
+
+
+
+
 
 ## Features
 
